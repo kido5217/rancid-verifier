@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING
 
 from cleo.application import Application
 from cleo.commands.command import Command
-from cleo.helpers import argument, option
+from cleo.helpers import argument
 
 if TYPE_CHECKING:
     from cleo.io.inputs.argument import Argument
