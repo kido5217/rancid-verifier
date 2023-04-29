@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rancid-verifier"
+version = "0.1.0"
+description = ""
+authors = ["Fedor Suchkov <f.suchkov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rancid_verifier"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
