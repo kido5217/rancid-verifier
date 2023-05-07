@@ -1,0 +1,3 @@
+router-r1;cisco;up
+router-r2;cisco;down
+router-r3;cisco;up;Скоро будет демонтирован
