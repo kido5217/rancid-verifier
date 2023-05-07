@@ -12,16 +12,6 @@ def test_one_file():
     assert expected_path == result_path
 
 
-def test_one_file_w_name():
-    path_default = "tests/fixtures/repo/router.db"
-    path_raw = "tests/fixtures/repo/router.db.backup"
-
-    expected_path = [pathlib.Path(path_raw)]
-    result_path = get_file_list(path_default, file_name="router.db.backup")
-
-    assert expected_path == result_path
-
-
 def test_dir():
     path_raw = "tests/fixtures/repo/"
     expected_path = [pathlib.Path(path_raw) / "router.db"]

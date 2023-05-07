@@ -8,7 +8,6 @@ packages = [{include = "rancid_verifier"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-cleo = "^2.0.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
@@ -16,7 +15,7 @@ ruff = "^0.0.263"
 pytest = "^7.3.1"
 
 [tool.poetry.scripts]
-rver = "rancid_verifier.cli:cli"
+rver = "rancid_verifier.main:cli"
 
 [build-system]
 requires = ["poetry-core"]
